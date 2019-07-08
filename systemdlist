@@ -1,0 +1,10 @@
+total 36K
+-rw-r--r--  1 root root 1,1K ápr   20  2018 journald.conf
+-rw-r--r--  1 root root 1022 ápr   20  2018 logind.conf
+drwxr-xr-x  2 root root 4,0K ápr   20  2018 network
+-rw-r--r--  1 root root  601 ápr   20  2018 resolved.conf
+drwxr-xr-x 18 root root 4,0K júl    7 21:24 system
+-rw-r--r--  1 root root 1,7K ápr   20  2018 system.conf
+-rw-r--r--  1 root root  604 ápr   20  2018 timesyncd.conf
+drwxr-xr-x  3 root root 4,0K febr  10 01:15 user
+-rw-r--r--  1 root root 1,2K jan   28  2018 user.conf

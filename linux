@@ -1,0 +1,1814 @@
+: 1559634623:0;Zsh
+: 1559634627:0;zsh
+: 1559634640:0;oh my zsh
+: 1559634802:0;ls
+: 1559634961:0;mkdir Flow
+: 1559634996:0;pwd
+: 1559635072:0;cd Flow
+: 1559635083:0;pwd
+: 1559635185:0;mkdir Teszt
+: 1559635213:0;ls
+: 1559635230:0;ls lh
+: 1559635245:0;lslh
+: 1559635256:0;ls -lh
+: 1559635292:0;ls
+: 1559635311:0;touch text.txt
+: 1559635317:0;ls
+: 1559635327:0;ls -l
+: 1559635457:0;cp text.txt test2.txt
+: 1559635569:0;test2.txt
+: 1559635591:0;touch hello
+: 1559635595:0;ls
+: 1559635886:0;echo "Sziasztok\
+echo 'Szia\!'
+: 1559635921:0;echo 'Szia!'
+: 1559636014:0;vimhello
+: 1559636020:0;vim hello
+: 1559636194:0;nano hello
+: 1559636469:0;ls
+: 1559636489:0;cat hello
+: 1559636508:0;pico hello
+: 1559636549:0;rm hello
+: 1559636588:0;echo 'szia!'
+: 1559636666:0;echo 'Szia!' > hello
+: 1559636671:0;ls
+: 1559636684:0;cat < hello
+: 1559638103:0;pwd
+: 1559638726:0;ls -l
+: 1559638736:0;touch .hello
+: 1559638740:0;ls
+: 1559638754:0;ls -lah
+: 1559639030:0;ls -l | grep hello
+: 1559639240:0;chown root:root hello
+: 1559639266:0;cat hello
+: 1559639292:0;chown root: hello
+: 1559639321:0;sudochown root: hello
+: 1559639336:0;sudo chown root: hello
+: 1559639349:0;ls
+: 1559639364:0;ls -lah
+: 1559639374:0;cat hello
+: 1559639379:0;vim hello
+: 1559639968:0;chmod u-x hello
+: 1559640030:0;oh my zsh
+: 1559640037:0;zsh
+: 1559640050:0;chmod u-x hello
+: 1559640054:0;zsh
+: 1559640088:0;chmod a+rw hello
+: 1559640097:0;ls
+: 1559640216:0;chown 777 hello
+: 1559640234:0;sudo chown 777 hello
+: 1559640266:0;ls -lh
+: 1559640291:0;chown zbira: hello
+: 1559640301:0;ls -l
+: 1559640329:0;sudo su
+: 1559642179:0;sudo apt install tree
+: 1559642194:0;tree
+: 1559645436:0;mkdir
+: 1559645454:0;cd..
+: 1559645501:0;ls
+: 1559645509:0;cd..
+: 1559645522:0;cd ..
+: 1559645527:0;ls
+: 1559645567:0;CD flow
+: 1559645574:0;cd Flow
+: 1559645619:0;rm. hello
+: 1559645627:0;rm .hello
+: 1559645742:0;chmod u+r hello
+: 1559645782:0;chown root:root hello
+: 1559645810:0;chmod u+w hello
+: 1559649875:0;chmod u-w hello
+: 1559650245:0;cd ..
+: 1559650253:0;ls
+: 1559650277:0;chmod u+w Flow
+: 1559650293:0;ls -l
+: 1559650311:0;cd Flow
+: 1559650327:0;chmod u+w hello
+: 1559650339:0;chmod u-w hello
+: 1559650393:0;chmod u+w text.txt
+: 1559650413:0;chmod u+r text.txt
+: 1559650611:0;ls
+: 1559650634:0;mkdir kerekpar
+: 1559650676:0;cd kerekpar
+: 1559650695:0;touch kerek
+: 1559650704:0;touch kormany
+: 1559650710:0;touch vaz
+: 1559650715:0;touch gumi
+: 1559650744:0;touch kullo
+: 1559650749:0;touch szelep
+: 1559650789:0;tree
+: 1559650799:0;cd ..
+: 1559650802:0;cd..
+: 1559650803:0;ls
+: 1559650811:0;tree
+: 1559650819:0;cd ..
+: 1559650823:0;tree
+: 1559650861:0;grep lip
+: 1559650935:0;greplib.txt
+: 1559650947:0;grep lib.txt
+: 1559650977:0;grep lib
+: 1559650995:0;tree
+: 1559651065:0;grep usr
+: 1559651143:0;cd ..
+: 1559651158:0;ls
+: 1559651164:0;cd ..
+: 1559651193:0;tree
+: 1559651335:0;usr
+: 1559651339:0;ls
+: 1559651353:0;cd ..
+: 1559651386:0;usr/lib
+: 1559651401:0;ls
+: 1559651675:0;-lh
+: 1559651678:0;lh
+: 1559651705:0;-lh
+: 1559651740:0;ls touch lib.txt
+: 1559651768:0;touch lib.txt
+: 1559651875:0;cd ..
+: 1559651886:0;/lib
+: 1559651901:0;touch lib.txt
+: 1559651956:0;cd ..
+: 1559651967:0;veres
+: 1559651983:0;lib
+: 1559652001:0;cd ..
+: 1559652038:0;cd ~
+: 1559652045:0;ls
+: 1559652057:0;touch lib.txt
+: 1559652161:0;/usr/lib
+: 1559652202:0;ls -lh > /home/veres/lib.txt
+: 1559652211:0;/home/veres
+: 1559652227:0;nano.txt
+: 1559652241:0;nano lib.txt
+: 1559652354:0;/home/veres
+: 1559652362:0;ls
+: 1559652373:0;cd ..
+: 1559652392:0;mkdir
+: 1559652403:0;mkdir cic√ÉÅk
+: 1559652407:0;cd ..
+: 1559652411:0;home
+: 1559652420:0;mkdir cic√ÉÅk
+: 1559652443:0;/Flow
+: 1559652449:0;cd ..
+: 1559652454:0;/home
+: 1559652483:0;/veres
+: 1559652486:0;cd ..
+: 1559652497:0;/home/veres
+: 1559652509:0;mkdir cic√ÉÅk
+: 1559652525:0;ls
+: 1559652546:0;/cic√ÉÅk
+: 1559652556:0;cd ..
+: 1559652564:0;/vere/cic√ÉÅk
+: 1559652576:0;cd ..
+: 1559652612:0;home/veres/cic√ÉÅk
+: 1559652635:0;mkdir kiscica1
+: 1559652640:0;mkdir kiscica2
+: 1559652650:0;mkdir kiscica3
+: 1559652669:0;/kiscica1
+: 1559652682:0;cd ..
+: 1559652686:0;/cic√ÉÅk
+: 1559652722:0;cic√ÉÅk
+: 1559652733:0;/kiscica1
+: 1559652741:0;cd ..
+: 1559652746:0;cic√ÉÅk
+: 1559652756:0;/ kiscica1
+: 1559652763:0;cd ..
+: 1559652775:0;cic√ÉÅk/kiscica1
+: 1559652791:0;touch abc
+: 1559652829:0;cp abc /kiscica2
+: 1559652843:0;cp abc
+: 1559652846:0;cd ..
+: 1559652856:0;/kiscica1
+: 1559652872:0;cd ..
+: 1559652879:0;cic√ÉÅk/kiscica1
+: 1559653021:0;cd ..
+: 1559653224:0;cp home/veres/cic√ÉÅk/kiscica1/abc home/veres/cic√ÉÅk/kiscica2
+: 1559653300:0;pwd
+: 1559653489:0;cd ..
+: 1559653499:0;/veres
+: 1559653876:0;pwd
+: 1559653883:0;/veres
+: 1559653904:0;cd ..
+: 1559653922:0;home/veres
+: 1559653932:0;ls -l
+: 1559654188:0;pwd
+: 1559654208:0;/cic√ÉÅk
+: 1559654225:0;cic√ÉÅk
+: 1559654546:0;cd ..
+: 1559654555:0;mkdir tudas
+: 1559654568:0;mkdir jarmu
+: 1559654613:0;pwd
+: 1559654632:0;jarmu
+: 1559654663:0;mkdir Citroen Daewoo Fiat Ford Lada Mercedes Nissan Opel
+: 1559654748:0;cd ...
+: 1559654752:0;cd ..
+: 1559654799:0;cd ~
+: 1559654839:0;ls -l
+: 1559654900:0;=etc
+: 1559654912:0;/etc
+: 1559654925:0;ls -l
+: 1559654943:0;/var/log
+: 1559654954:0;ls -l
+: 1559654991:0;~
+: 1559655248:0;mkdir Teszt
+: 1559656184:0;cd Teszt
+: 1559656197:0;mkdir T1 T2
+: 1559656212:0;tree
+: 1559656269:0;mkdir Unix Linux Debian
+: 1559656284:0;rn Debian Deb
+: 1559656297:0;cd ..
+: 1559656304:0;/Teszt
+: 1559656310:0;cd ..
+: 1559656318:0;/veres
+: 1559656326:0;pwd
+: 1559656332:0;veres
+: 1559656339:0;Teszt
+: 1559656537:0;cd ..
+: 1559656543:0;/Teszt
+: 1559656551:0;Teszt
+: 1559656754:0;mkdir -p Unix/Linux/Debian
+: 1559656813:0;tree
+: 1559656842:0;clear DebianLinux
+: 1559656852:0;Clear Debian Linux
+: 1559656862:0;cd..
+: 1559656874:0;cd ..
+: 1559656878:0;Teszt
+: 1559656889:0;clear Debian Linux
+: 1559656909:0;clear Debian
+: 1559657046:0;mv Unix/Linux/Debian T1
+: 1559657050:0;tree
+: 1559657074:0;clear T1
+: 1559657108:0;/etc
+: 1559657112:0;ls -l
+: 1559657216:0;/
+: 1559657223:0;~
+: 1559657286:0;Teszt
+: 1559657332:0;tree
+: 1559657347:0;rm -r Debian
+: 1559657350:0;tree
+: 1559657367:0;rm Debian
+: 1559657377:0;rm -r Debian
+: 1559657380:0;cd ..
+: 1559657383:0;Teszt
+: 1559657390:0;rm -r Debian
+: 1559657401:0;rm -r Linux
+: 1559657404:0;tree
+: 1559657477:0;mv T1/Debian T1/Deb
+: 1559657480:0;tree
+: 1559657534:0;rm -r Teszt
+: 1559657538:0;cd ..
+: 1559657558:0;rm -r Teszt
+: 1559657561:0;tree
+: 1559657965:0;/etc
+: 1559657971:0;tree
+: 1559657992:0;tree dir
+: 1559658000:0;dir tree
+: 1559658204:0;cp /etc=passwd ~gyakorlat/test
+: 1559658252:0;cp /etc/passwd ~gyakorlat/test
+: 1559658255:0;cd..
+: 1559658259:0;cd ..
+: 1559658264:0;etc
+: 1559658366:0;cp passwd home/veres/gyakorlat/Proba/test
+: 1559658376:0;tree
+: 1559658580:0;cp passwd /home/veres/gyakorlat/Proba
+: 1559658721:0;cp $.conf /home/veres/gyakorlat/Proba/Linux
+: 1559658736:0;cd ..
+: 1559658741:0;etc
+: 1559660011:0;ls -d
+: 1559660374:0;tree
+: 1559660384:0;ls -d
+: 1559660401:0;tree -d
+: 1560766119:0;sudo reboot
+: 1560766249:0;pwd
+: 1560767028:0;ls
+: 1560768122:0;cd Flow
+: 1560768142:0;cd Progtetelek
+: 1560768144:0;ls
+: 1560768161:0;git init
+: 1560768188:0;git add .
+: 1560768248:0;git commit -m "first commit"
+: 1560768281:0;git push -u origin master
+: 1560782842:0;cd ..
+: 1560783043:0;tree
+: 1560783059:0;pwd
+: 1560783069:0;cd Progt√©telek
+: 1560783102:0;rm -rf
+: 1560783114:0;rm -rf .git
+: 1560783130:0;cd Progtetelek
+: 1560783145:0;ls -la
+: 1560783168:0;mkdir progtetelek0617
+: 1560783393:0;mv Feladat_Prog_t√©telek_diasor_(P._M√ÉÅt√©_2d_array).js progtetelek0617
+: 1560783429:0;mv Feladat_Prog_t√©telek_diasor_(P._M√ÉÅt√©_2d_array).js /progtetelek0617
+: 1560783469:0;cd progtetelek
+: 1560783481:0;cd progtetelek0617
+: 1560783512:0;ls -la
+: 1560783518:0;cd ..
+: 1560783560:0;git add progtetelek0617/
+: 1560783574:0;git commit
+: 1560783632:0;git push
+: 1560841733:0;code
+: 1560841746:0;npm install
+: 1560841799:0;npm install readline-sync
+: 1560841880:0;npm install -g readline-sync
+: 1560841898:0;sudo npm install -g readline-sync
+: 1560842244:0;pwd
+: 1560842249:0;ls
+: 1560842262:0;cd Flow
+: 1560842266:0;ls
+: 1560842294:0;node Progtetelek3.js
+: 1560851017:0;mpm install table
+: 1560851080:0;node Progtetelek3.js
+: 1560851117:0;mpm install table
+: 1560851126:0;npm install table
+: 1560851159:0;ls
+: 1560851178:0;sudo npm install table
+: 1560851193:0;node Progtetelek3.js
+: 1560853737:0;pwd
+: 1560853739:0;ls
+: 1560853743:0;cd Flow
+: 1560853745:0;ls
+: 1560853756:0;cd Progtetelek
+: 1560853867:0;mkdir Progtetelek0618
+: 1560853870:0;ls
+: 1560881435:0;pwd
+: 1560881437:0;ls
+: 1560881440:0;cd Flow
+: 1560881443:0;ls
+: 1560881474:0;cp Progtetelek3.js 
+: 1560881499:0;cd zeta-first-repo
+: 1560881506:0;ls
+: 1560881513:0;cd ..
+: 1560881521:0;cd git
+: 1560881524:0;ls
+: 1560881531:0;cd ..
+: 1560881544:0;cd Progtetelek
+: 1560881546:0;ls
+: 1560881559:0;cd Progtetelek0618
+: 1560881560:0;ls
+: 1560881715:0;cd ..
+: 1560881772:0;cp Progtetelek3.js /Progtetelek/Progtetelek0618
+: 1560881829:0;mv Progtetelek3.js /Progtetelek/Progtetelek0618
+: 1560881874:0;cp Progtetelek3.js ./Progtetelek/Progtetelek0618
+: 1560881888:0;cd Progtetelek
+: 1560881902:0;cd Progtetelek0618
+: 1560881903:0;ls
+: 1560882149:0;cd ..
+: 1560882166:0;git add Progtetelek0618
+: 1560882171:0;git commit
+: 1560882221:0;git push
+: 1560882255:0;cd ..
+: 1560884326:0;pwd
+: 1560884328:0;ls
+: 1560884331:0;cd Flow
+: 1560884378:0;ls
+: 1560884390:0;nano Progtetelek3.js
+: 1560884547:0;sudo Progtetelek3.js
+: 1560884585:0;./Progtetelek3.js
+: 1560884693:0;chmod 777 Progtetelek3.js
+: 1560884696:0;./Progtetelek3.js
+: 1560884767:0;node Progtetelek3.js
+: 1560884811:0;cp Progtetelek3.js ./Progtetelek/Progtetelek0618 Progtetelek3.1.js
+: 1560884850:0;mv Progtetelek3.js Progtetelek3.1.js
+: 1560884867:0;cp Progtetelek3.1.js ./Progtetelek/Progtetelek0618
+: 1560884889:0;cd Progtetelek3
+: 1560884891:0;cd Progtetelek
+: 1560884894:0;ls
+: 1560884905:0;cd Progtetelek0618
+: 1560884908:0;ls
+: 1560884977:0;cd ..
+: 1560884995:0;git add Progtetelek0618/
+: 1560885001:0;git commit
+: 1560885013:0;git push
+: 1560885212:0;cd Progtetelek0618
+: 1560885214:0;ls
+: 1560885237:0;git push Progtetelek3.1.js
+: 1560928390:0;pwd
+: 1560928394:0;cd Flow
+: 1560928396:0;ls
+: 1560928413:0;cd Progtetelek
+: 1560928416:0;ls
+: 1560928422:0;cd ..
+: 1560928429:0;cd Progtetelek
+: 1560928436:0;ls
+: 1560928447:0;cd Progtetelek0618
+: 1560928490:0;cat .git/config
+: 1560928498:0;cd ..
+: 1560928506:0;cat .git/config
+: 1560930209:0;cd ..
+: 1560930210:0;ls
+: 1560930219:0;cd zeta
+: 1560930230:0;cd zeta-first-repo
+: 1560930232:0;ls
+: 1560930685:0;sudo apt install ssh
+: 1560930748:0;ssh-keygen
+: 1560930771:0;ls -lh
+: 1560930776:0;cd ..
+: 1560930779:0;ls -lh
+: 1560930789:0;cd ..
+: 1560930794:0;ls -lh
+: 1560930797:0;pwd
+: 1560930814:0;ls -lah
+: 1560930869:0;ls .ssh
+: 1560930896:0;cat .ssh/id_rsa.pub
+: 1560931001:0;pwd
+: 1560931132:0;cd /Flow/zeta-first-repo
+: 1560931139:0;ls
+: 1560931143:0;cd Flow
+: 1560931144:0;ls
+: 1560931155:0;cd zeta-first-repo
+: 1560931176:0;ls
+: 1560931462:0;cd ..
+: 1560931465:0;ls
+: 1560931471:0;cd Progtetelek
+: 1560931552:0;git remote set-url origin git@github.com:Veresgabi/programming-issues.git
+: 1560931568:0;git remote -v
+: 1560931588:0;git add .
+: 1560931593:0;git commit
+: 1560931606:0;git commit -m
+: 1560931619:0;git commit -m "new addition"
+: 1560931626:0;git push
+: 1560931763:0;cd ..
+: 1560931768:0;cd Progtetelek
+: 1560932847:0;git remote -v
+: 1560932861:0;cd Progtetelek0618
+: 1560932865:0;git remote -v
+: 1560937393:0;cd ..
+: 1560937403:0;ls
+: 1560937416:0;cd zeta-first-repo
+: 1560937530:0;ls
+: 1560937590:0;cd ..
+: 1560937591:0;ls
+: 1560937667:0;git@github.com:flowacademyhu/zeta-lotto.git
+: 1560937723:0;git clone git@github.com:flowacademyhu/zeta-lotto.git
+: 1560937729:0;ls
+: 1560937736:0;cd zeta-lotto
+: 1560937741:0;ls
+: 1560946723:0;pwd
+: 1560946727:0;cd ..
+: 1560946734:0;pwd
+: 1560946736:0;ls
+: 1560946784:0;node Progtetelek3.1.js
+: 1560946947:0;cd zeta-lotto
+: 1560947767:0;cd ..
+: 1560947770:0;ls
+: 1560947778:0;cd zeta-lotto
+: 1560947793:0;ls
+: 1560947801:0;cd ..
+: 1560947819:0;git add zeta-lotto/
+: 1560947845:0;git add zeta-lotto
+: 1560947853:0;git add /zeta-lotto
+: 1560947903:0;cd zeta-lotto
+: 1560947941:0;git add display-matrix-with-table-package.js
+: 1560947947:0;git push
+: 1560948068:0;git pull
+: 1560948077:0;git push
+: 1560948320:0;git pull
+: 1560948334:0;git add .
+: 1560948338:0;git commit
+: 1560948370:0;git push
+: 1560949855:0;ls
+: 1560949889:0;git pull
+: 1560949891:0;ls
+: 1560952013:0;code.
+: 1560952016:0;code .
+: 1560956059:0;pwd
+: 1560956061:0;ls
+: 1560956064:0;cd Flow
+: 1560956065:0;ls
+: 1560956090:0;cd zeta-
+: 1560956099:0;cd zeta-lotto
+: 1560956104:0;ls
+: 1560956118:0;git pull
+: 1560956124:0;ls
+: 1560956167:0;node lotto.js
+: 1560956621:0;node main.js
+: 1560969818:0;pwd
+: 1560969823:0;cd Flow
+: 1560969840:0;mkdir Posix
+: 1560969849:0;mkdir Javascript
+: 1560973318:0;pwd
+: 1560973328:0;cd Javascript
+: 1560973374:0;node Progtetelek_3.js
+: 1560978608:0;cd ..
+: 1560978611:0;ls
+: 1560978622:0;cd zetanpm
+: 1560978687:0;node test-grafic.js
+: 1560978726:0;npm i axel
+: 1560978736:0;sudo npm i axel
+: 1560978771:0;node test-grafic.js
+: 1560978836:0;cd ..
+: 1560978844:0;cd Javascript
+: 1560978848:0;node test-grafic.js
+: 1560978852:0;cd ..
+: 1560978862:0;cd zetanpm
+: 1560978867:0;node test-grafic.js
+: 1560978988:0;node test-grafic2.js
+: 1560979001:0;node test-grafic.js
+: 1560979095:0;cd ..
+: 1560979109:0;cd zetanpm
+: 1560979114:0;node test-grafic.js
+: 1560979166:0;pwd
+: 1560979170:0;cd veres
+: 1560979176:0;ls
+: 1560979179:0;cd Flow
+: 1560979182:0;ls
+: 1560979190:0;cd zetanpm
+: 1560979194:0;ls
+: 1560979215:0;node test-graphic.js
+: 1560979231:0;node test-graphic2.js
+: 1560979236:0;node test-graphic.js
+: 1560979289:0;node test-graphic2.js
+: 1560979308:0;ls
+: 1560979321:0;cd node_modules
+: 1560979326:0;node test-graphic2.js
+: 1560979417:0;cd axel
+: 1560979421:0;cd demo
+: 1560979422:0;ls
+: 1560979431:0;node box.js
+: 1560979461:0;node circle.js
+: 1560979490:0;node line.js
+: 1560979756:0;pwd
+: 1560979760:0;cd ..
+: 1560979768:0;ls
+: 1560979781:0;node test-graphic-2.js
+: 1560979791:0;node test-graphic-3.js
+: 1560979803:0;node test-grafic3.js
+: 1560981042:0;pwd
+: 1560981049:0;ls
+: 1560981057:0;cd node_modules
+: 1560981059:0;ls
+: 1560981153:0;cd ..
+: 1560981157:0;cd Flow
+: 1560981165:0;ls
+: 1560981196:0;cd zetanpm
+: 1560981198:0;ls
+: 1560981218:0;node test-graphic-3.js
+: 1561020492:0;pwd
+: 1561020743:0;cd veres
+: 1561020758:0;ls
+: 1561020780:0;cd Flow
+: 1561020783:0;ls
+: 1561020804:0;cd Javascript
+: 1561020837:0;node Feladat_Progtetelek_(akasztofa-game-0620).js
+: 1561020840:0;ls
+: 1561020880:0;node Feladat_Progtetelek_(akasztofa-game-0620).js
+: 1561020985:0;cd ..
+: 1561020988:0;ls
+: 1561021002:0;cd zetanpm
+: 1561021004:0;ls
+: 1561021014:0;node Feladat_Progtetelek_(akasztofa-game-0620).js
+: 1561021100:0;cd node_modules
+: 1561021103:0;ls
+: 1561021109:0;node Feladat_Progtetelek_(akasztofa-game-0620).js
+: 1561021125:0;node /Feladat_Progtetelek_(akasztofa-game-0620).js
+: 1561021132:0;node ./Feladat_Progtetelek_(akasztofa-game-0620).js
+: 1561021148:0;cd ..≈±
+: 1561021151:0;cd ..
+: 1561021153:0;ls
+: 1561021174:0;node Progtetelek3.js
+: 1561021252:0;ls
+: 1561021277:0;node feladat-progtetelek-(akasztofa-game-0620).js
+: 1561021318:0;node T√ÉÅbl√ÉÅzat.js
+: 1561021664:0;node Feladat_Progtetelek_(akasztofa-game-0620).js
+: 1561021709:0;ls
+: 1561021722:0;cd node_modules
+: 1561021724:0;ls
+: 1561021732:0;node Feladat_Progtetelek_(akasztofa-game-0620).js
+: 1561021749:0;node Feladat_Progtetelek_\(akasztofa-game-0620\).js
+: 1561022266:0;pwd
+: 1561039876:0;ls
+: 1561039881:0;cd Flow
+: 1561039883:0;ls
+: 1561039891:0;cd zetanpm
+: 1561039892:0;ls
+: 1561039917:0;node feladat-progtetelek-calculator.js
+: 1561041348:0;pwd
+: 1561041454:0;cd ..
+: 1561041461:0;node feladat-progtetelek-calculator.js
+: 1561041496:0;cd zetanpm
+: 1561041498:0;ls
+: 1561041514:0;cd node_modules
+: 1561041518:0;node feladat-progtetelek-calculator.js
+: 1561041920:0;cd ..
+: 1561041934:0;node install readlineSync
+: 1561041947:0;sudo install readlineSync
+: 1561042008:0;cd ..
+: 1561042017:0;cd Javascript
+: 1561042027:0;npm init
+: 1561042041:0;node feladat-progtetelek-calculator.js
+: 1561042086:0;npm install -g readline-sync~
+: 1561042095:0;sudo npm install -g readline-sync~
+: 1561042115:0;sudo npm install -g readline-sync
+: 1561042123:0;node feladat-progtetelek-calculator.js
+: 1561042146:0;sudo npm install -g readline-sync
+: 1561042155:0;node feladat-progtetelek-calculator.js
+: 1561042273:0;sudo npm install -g readline-sync
+: 1561042283:0;node feladat-progtetelek-calculator.js
+: 1561042312:0;npm init
+: 1561042325:0;node feladat-progtetelek-calculator.js
+: 1561042339:0;npm init
+: 1561042352:0;node feladat-progtetelek-calculator.js
+: 1561054325:0;pwd
+: 1561054327:0;ls
+: 1561054330:0;cd Flow
+: 1561054336:0;cd Javascript
+: 1561054339:0;ls
+: 1561054433:0;node Feladat_Progtetelek_/(akasztofa-game-0620/).js
+: 1561054601:0;node Feladat_Progtetelek_akasztofa-game-0620.js
+: 1561055288:0;pwd
+: 1561055392:0;node Feladat_Progtetelek_akasztofa-game-0620.js
+: 1561058270:0;pwd
+: 1561058491:0;sudo npm install -g readline-keyin
+: 1561058533:0;sudo npm install -g readLine-keyIn
+: 1561058626:0;npm install -g readline-sync
+: 1561058633:0;sudo npm install -g readline-sync
+: 1561058644:0;node Feladat_Progtetelek_akasztofa-game-0620.js
+: 1561059324:0;node wordGuess.js
+: 1561059449:0;node Feladat_Progtetelek_akasztofa-game-0620.js
+: 1561060174:0;node wordGuess.js
+: 1561060248:0;node Feladat_Progtetelek_akasztofa-game-0620.js
+: 1561060409:0;node wordGuess.js
+: 1561060460:0;node Feladat_Progtetelek_akasztofa-game-0620.js
+: 1561061290:0;node Feladat_Progtetelek_0618_tomb_minDiffNumbers_Piramid.js
+: 1561100646:0;cd Flow
+: 1561100677:0;cd Progtetelek
+: 1561100679:0;pwd
+: 1561100683:0;ls
+: 1561100702:0;mkdir progtetelek0620
+: 1561100711:0;cd ..
+: 1561100713:0;ls
+: 1561100723:0;cd Javascript
+: 1561100725:0;ls
+: 1561101197:0;cd ..
+: 1561101290:0;cd Progtetelek
+: 1561101460:0;ls
+: 1561101471:0;cd progtetelek0620
+: 1561101732:0;cd ..
+: 1561101762:0;git add progtetelek0620/
+: 1561101797:0;git commit
+: 1561101869:0;git push
+: 1561104854:0;cd ..
+: 1561104860:0;cd Progtetelek
+: 1561106951:0;ls
+: 1561106976:0;git clone git@github.com:wixon1337/branch-calculator.git
+: 1561106982:0;ls
+: 1561107005:0;cd branch-calculator
+: 1561107145:0;git status
+: 1561107212:0;git pull
+: 1561107222:0;ls
+: 1561107237:0;git checkout development
+: 1561107282:0;git status
+: 1561107288:0;git pull
+: 1561107294:0;git checkout development
+: 1561107470:0;npm init
+: 1561107501:0;git pull
+: 1561107521:0;ls
+: 1561107555:0;npm install readline-syc
+: 1561107563:0;npm install readline-sync
+: 1561107586:0;git status
+: 1561107602:0;nano
+: 1561107706:0;nano .gitignore
+: 1561107793:0;git status
+: 1561107807:0;git add.
+: 1561107811:0;git add .
+: 1561107817:0;git commit
+: 1561107832:0;git push
+: 1561107902:0;git push -f
+: 1561108083:0;npm install readline-sync --save
+: 1561108137:0;sudo chown veres:veres ~/.npm -r
+: 1561108169:0;npm install readline-sync --save
+: 1561108185:0;sudo chmod 777 ~/.npm -r
+: 1561108201:0;sudo chmod 777 ~/.npm -R
+: 1561108204:0;npm install readline-sync --save
+: 1561108224:0;cat package.json
+: 1561108379:0;git status
+: 1561108446:0;git pull
+: 1561108626:0;git checkout -b muveletek1
+: 1561109098:0;git push
+: 1561109105:0;git add .
+: 1561109108:0;git commit
+: 1561109122:0;git push
+: 1561109147:0;git push --set-upstream origin muveletek1
+: 1561109581:0;git checkout development
+: 1561109587:0;git pull
+: 1561111010:0;git checkout master
+: 1561111014:0;git pull
+: 1561111024:0;ls
+: 1561120256:0;cd FLow
+: 1561120261:0;ls
+: 1561120266:0;cd Flow
+: 1561120283:0;ls
+: 1561120305:0;mkdir adventure-game
+: 1561120312:0;cd adventure game
+: 1561120317:0;cd adventure-game
+: 1561120355:0;npm init
+: 1561120386:0;npm install
+: 1561120462:0;git init
+: 1561120473:0;git add README.md
+: 1561120486:0;git commit -m "first commit"
+: 1561120586:0;git git@github.com:Veresgabi/adventure-game.git~
+: 1561127510:0;ls
+: 1561127526:0;node adventure-game.js
+: 1561142268:0;pwd
+: 1561142270:0;ls
+: 1561142280:0;cd Flow
+: 1561142283:0;ls
+: 1561142290:0;cd adventure-game
+: 1561142299:0;node adventure-game.js
+: 1561143305:0;ls
+: 1561143311:0;cd ..
+: 1561143313:0;ls
+: 1561143351:0;cd Javascript
+: 1561143353:0;ls
+: 1561143419:0;node feladat-progtetelek-calculator.js
+: 1561143435:0;cd ..
+: 1561143444:0;cd adventure-game
+: 1561144333:0;node adventure-game.js
+: 1561214723:0;pwd
+: 1561214727:0;cdFlow
+: 1561214731:0;cd Flow
+: 1561214733:0;ls
+: 1561214745:0;cd adventure-game
+: 1561214750:0;ls
+: 1561214758:0;node teszt.js
+: 1561280918:0;cd Flow
+: 1561280920:0;ls
+: 1561280936:0;cd adventure-game
+: 1561280941:0;ls
+: 1561280959:0;node adventure-game.js
+: 1561284809:0;pwd
+: 1561284813:0;cd Flow
+: 1561284821:0;cd adventure game
+: 1561284828:0;cd adventure-game
+: 1561284831:0;node adventure-game.js
+: 1561314220:0;cd Flow
+: 1561314222:0;ls
+: 1561314229:0;cd adventure-game
+: 1561314241:0;node adventure-game.js
+: 1561319122:0;node adventure-game1.js
+: 1561328304:0;git commit
+: 1561328317:0;cd ..
+: 1561328330:0;git add adventure-game
+: 1561328392:0;cd adventure-game
+: 1561328396:0;git init
+: 1561328425:0;git add adventure-game.js
+: 1561328435:0;git commit
+: 1561328471:0;git push
+: 1561328494:0;sudo git push
+: 1561328527:0;git remote add origin git@github.com:Veresgabi/adventure-game.git
+: 1561328543:0;cd ..
+: 1561328546:0;git push
+: 1561328552:0;cd adventure-game
+: 1561328557:0;git push
+: 1561328575:0;cd ..
+: 1561328598:0;git add adventure-game
+: 1561328622:0;git push -u origin master
+: 1561328629:0;cd adventure-game
+: 1561328632:0;git push -u origin master
+: 1561329127:0;cd
+: 1561360294:0;pwd
+: 1561360297:0;cd Flow
+: 1561360303:0;cd adventure-game
+: 1561360516:0;node adventure-game.js
+: 1561367473:0;cd ..
+: 1561367535:0;if config
+: 1561367540:0;ifconfig
+: 1561367547:0;cd ..
+: 1561367551:0;ifconfig
+: 1561367611:0;ip
+: 1561367635:0;apt-get isntall net-tools
+: 1561367656:0;sudo apt isntall net-tools
+: 1561367706:0;sudo apt install net-tools
+: 1561367723:0;ifconfig
+: 1561380899:0;cd Flow
+: 1561380926:0;cd Javascript
+: 1561380935:0;npm install -g readline-sync
+: 1561380945:0;sudo npm install -g readline-sync
+: 1561380978:0;ls
+: 1561381000:0;node test-graphic2.js
+: 1561382789:0;cd Flow
+: 1561382888:0;git clone git@github.com:flowacademyhu/zeta-lunar-rescue.git
+: 1561382903:0;ls
+: 1561382911:0;cd zeta-lunar-rescue
+: 1561383143:0;git checkout -b development
+: 1561385879:0;cd ..
+: 1561385896:0;cd javascript
+: 1561385899:0;ls
+: 1561385906:0;cd Javascript
+: 1561385909:0;ls
+: 1561385928:0;node lunar-rescue.js
+: 1561386385:0;node Progtetelek_2.d_2dArray.js
+: 1561386885:0;node lunar-rescue.js
+: 1561402161:0;pwd
+: 1561402164:0;cd Flow
+: 1561402173:0;cd Javascript
+: 1561402260:0;npm install -g readline-sync
+: 1561402270:0;sudo npm install -g readline-sync
+: 1561402308:0;node lunar-rescue.js
+: 1561407701:0;sudo npm install -g axel
+: 1561410148:0;node lunar-rescue.js
+: 1561410321:0;cd Flow
+: 1561410322:0;ls
+: 1561410332:0;cd zeta-lunar-rescue
+: 1561410337:0;cd ..
+: 1561410350:0;cd Javascript
+: 1561410356:0;ls
+: 1561410365:0;node lunar-rescue.js
+: 1561410615:0;pwd
+: 1561410619:0;cd Flow
+: 1561410625:0;cd Javascript
+: 1561410634:0;node lunar-rescue.js
+: 1561411149:0;cd Flow
+: 1561411155:0;cd zeta-lunar-rescue
+: 1561411169:0;cd ..
+: 1561411180:0;cd Javascript
+: 1561411185:0;node lunar-rescue.js
+: 1561411464:0;cd Flow
+: 1561411471:0;cd Javascript
+: 1561411477:0;node lunar-rescue.js
+: 1561416432:0;cd Flow
+: 1561416446:0;cd Javascript
+: 1561416464:0;node lunar-rescue.js
+: 1561417566:0;cd Flow
+: 1561417573:0;cd Javascript
+: 1561417587:0;node lunar-rescue.js
+: 1561441886:0;cd Flow
+: 1561441893:0;cd Javascript
+: 1561441903:0;node lunar-rescue.js
+: 1561449376:0;cd Flow
+: 1561449412:0;cd Javascript
+: 1561449472:0;node lunar-rescue.js
+: 1561452903:0;ls
+: 1561452908:0;cd ..
+: 1561452911:0;ls
+: 1561452926:0;cs zeta-lunar-rescue/
+: 1561452933:0;cd zeta-lunar-rescue/
+: 1561452963:0;git checkout CARD-2-Board
+: 1561452972:0;git pull
+: 1561452992:0;git checkout CARD-2-Board
+: 1561453013:0;ls
+: 1561453021:0;code index.js
+: 1561453504:0;node index.js
+: 1561454971:0;git status
+: 1561454981:0;git add .
+: 1561454985:0;git commit
+: 1561455002:0;git push
+: 1561455650:0;node lunar-rescue.js
+: 1561455664:0;ls
+: 1561455677:0;node index.js
+: 1561455733:0;cd ..
+: 1561455741:0;cd Javascript
+: 1561455753:0;node lunar-rescue.js
+: 1561455822:0;cd Flow
+: 1561455826:0;cd Javascript
+: 1561455829:0;ls
+: 1561455845:0;node lunar-rescue.js
+: 1561456181:0;cd ..
+: 1561456206:0;cd zeta-lunar-rescue
+: 1561456210:0;ls
+: 1561456216:0;ls index.js
+: 1561456223:0;node index.js
+: 1561456250:0;cd ..
+: 1561456272:0;ls
+: 1561456299:0;cd Flow
+: 1561456348:0;ls
+: 1561456357:0;cd adventure-game
+: 1561456364:0;node adventure-game.js
+: 1561456377:0;cd ..
+: 1561456381:0;ls
+: 1561456387:0;cd zeta-lunar-rescue
+: 1561456570:0;ls
+: 1561456578:0;node index.js
+: 1561458061:0;ls
+: 1561458066:0;node index.js
+: 1561458239:0;cd ..
+: 1561458259:0;cd Javascript
+: 1561458260:0;ls
+: 1561458289:0;cd ..
+: 1561458290:0;ls
+: 1561458304:0;cd adventure-game
+: 1561458307:0;ls
+: 1561458315:0;node adventure-game.js
+: 1561471806:0;cd Flow
+: 1561471815:0;cd zeta-lunar-rescue
+: 1561471817:0;ls
+: 1561471838:0;git pull
+: 1561471887:0;git status
+: 1561471901:0;git reset
+: 1561471914:0;git pull
+: 1561471943:0;git stash index.js
+: 1561472088:0;git stash
+: 1561472097:0;git stash list
+: 1561472102:0;git pull
+: 1561472144:0;git stash list
+: 1561472243:0;ls
+: 1561472252:0;git pull
+: 1561472256:0;ls
+: 1561473362:0;git checkout -b
+: 1561473452:0;git checkout development
+: 1561473715:0;git checkout -b feature=card-10-Spaceship Landing
+: 1561473741:0;git checkout -b feature=card-10-Spaceship-Landing
+: 1561473766:0;ls
+: 1561474041:0;git checkout development
+: 1561474044:0;ls
+: 1561474053:0;git pull
+: 1561474061:0;ls
+: 1561474345:0;git branch --set-upstream-to=origin/<branch> development
+: 1561474402:0;git branch --set-upstream-to=origin/development development
+: 1561474412:0;gl
+: 1561474438:0;ls
+: 1561490149:0;cd Flow
+: 1561490151:0;ls
+: 1561490161:0;cd zeta-lunar-rescue
+: 1561490164:0;ls
+: 1561490179:0;node index.js
+: 1561490252:0;cd ..
+: 1561490258:0;cd Javascript
+: 1561490282:0;node lunar-rescue-asteroid\ by\ Vili
+: 1561495582:0;node lunar-rescue-asteroid\ by\ Vili -\ me.js
+: 1561496039:0;node lunar-rescue-asteroid\ by\ Vili
+: 1561496088:0;node lunar-rescue-asteroid\ by\ Vili -\ me.js
+: 1561496152:0;cd Flow
+: 1561496154:0;ls
+: 1561496160:0;cd Javascript
+: 1561496165:0;ls
+: 1561496181:0;node lunar-rescue-asteroid\ by\ Vili -\ me.js
+: 1561496582:0;ls
+: 1561496590:0;node lunar-rescue-asteroid\ by\ Vili -\ me.js
+: 1561496755:0;cd Flow
+: 1561496767:0;cd zeta-lunar-rescue
+: 1561496771:0;cd ..
+: 1561496778:0;cd Javascript
+: 1561496794:0;node lunar-rescue-asteroid-by-vili-me.js
+: 1561497085:0;node lunar-rescue-asteroid-by-vili.js
+: 1561497317:0;node lunar-rescue-asteroid-by-vili-me.js
+: 1561533125:0;cd FLow
+: 1561533131:0;pwd
+: 1561533134:0;ls
+: 1561533139:0;cd Flow
+: 1561533160:0;cd Javascript
+: 1561533166:0;node lunar-rescue-asteroid-by-vili.js
+: 1561533881:0;node lunar-rescue-asteroid-by-vili-me.js
+: 1561535651:0;node lunar-rescue-asteroid-by-vili.js
+: 1561536420:0;node lunar-rescue-asteroid-by-vili-me.js
+: 1561536813:0;node lunar-rescue-asteroid-by-vili.js
+: 1561551853:0;cd Flow
+: 1561551887:0;cdls
+: 1561551889:0;ls
+: 1561551897:0;cd Javascript
+: 1561551978:0;node lunar-rescue-asteroid-by-vili.js
+: 1561552400:0;node lunar-rescue-asteroid-by-vili-me.js
+: 1561552795:0;node lunar-rescue-asteroid-by-vili.js
+: 1561552808:0;node lunar-rescue-asteroid-by-vili-me.js
+: 1561555832:0;node lunar-rescue-spaceship-me.js
+: 1561555845:0;node lunar-rescue-spaceship-by-me.js
+: 1561556007:0;cd Flow
+: 1561556010:0;ls
+: 1561556025:0;cd Javascript
+: 1561556027:0;ls
+: 1561556054:0;node lunar-rescue-spaceship-by-me.js
+: 1561556486:0;cd Flow
+: 1561556491:0;cd Javascript
+: 1561556499:0;node lunar-rescue-spaceship-by-me.js
+: 1561556611:0;cd Javascript
+: 1561556615:0;node lunar-rescue-spaceship-by-me.js
+: 1561556617:0;cd Javascript
+: 1561556618:0;node lunar-rescue-spaceship-by-me.js
+: 1561556620:0;cd Javascript
+: 1561556624:0;node lunar-rescue-spaceship-by-me.js
+: 1561557332:0;cd Flow
+: 1561557336:0;cd Javascript
+: 1561557341:0;node lunar-rescue-spaceship-by-me.js
+: 1561558468:0;q
+: 1561558471:0;node lunar-rescue-spaceship-by-me.js
+: 1561559282:0;cd ..
+: 1561559295:0;cd Flow
+: 1561559295:0;ls
+: 1561559316:0;cd zeta-lunar-rescue
+: 1561560177:0;cd ..
+: 1561560182:0;cd Flow
+: 1561560207:0;cd Javascript
+: 1561560221:0;node lunar-rescue-spaceship-by-me.js
+: 1561561507:0;cd Flow
+: 1561561645:0;cd Javascript
+: 1561561649:0;node lunar-rescue-spaceship-by-me.js
+: 1561578357:0;cd Flow
+: 1561578369:0;cd Javascript
+: 1561578372:0;ls
+: 1561579393:0;node lunar-rescue-asteroid-by-vili-me.js
+: 1561581389:0;cd Flow
+: 1561581400:0;cd Javascript
+: 1561581410:0;node lunar-rescue-asteroid-by-vili-me.js
+: 1561581813:0;node lunar-rescue-spaceship-by-me.js
+: 1561587831:0;cd Flow
+: 1561587839:0;cd Javascript
+: 1561587853:0;node lunar-rescue-spaceship-by-me.js
+: 1561589851:0;cd Flow
+: 1561589857:0;cd Javascript
+: 1561589877:0;node lunar-rescue-spaceship-by-me.js
+: 1561592070:0;cd Flow
+: 1561592075:0;cd Javascript
+: 1561592089:0;node lunar-rescue-spaceship-by-me.js
+: 1561623353:0;cd Flow
+: 1561623361:0;apt install postman
+: 1561625529:0;mkdir Presentation
+: 1561637345:0;ls
+: 1561637373:0;cd zeta-lunar
+: 1561637380:0;cd zeta-lunar-rescue
+: 1561637813:0;git status
+: 1561637826:0;code space-ship.js
+: 1561637866:0;rm space-ship.js
+: 1561637872:0;git pull
+: 1561638018:0;git checkout -b feature/card-10-spaceship-landing
+: 1561638122:0;ls
+: 1561638131:0;git status
+: 1561638308:0;node spaceship-landing.js
+: 1561645432:0;git add .
+: 1561645437:0;git commit
+: 1561645467:0;git push
+: 1561645483:0;git push --set-upstream origin feature/card-10-spaceship-landing
+: 1561645537:0;git status
+: 1561645570:0;git pull
+: 1561645592:0;cd ..
+: 1561645697:0;cd zeta-lunar-rescue
+: 1561646804:0;node spaceship-landing.js
+: 1561701489:0;pwd
+: 1561701492:0;ls
+: 1561701504:0;cd Flow
+: 1561701519:0;cd zeta-lunar-rescue
+: 1561701653:0;git pull
+: 1561701661:0;ls
+: 1561701882:0;git checkout development
+: 1561701901:0;git pull
+: 1561701905:0;ls
+: 1561702439:0;node index.js
+: 1561708286:0;ssh flow@192.168.5.20
+: 1561708616:0;pwd
+: 1561708619:0;cd ..
+: 1561708627:0;ls
+: 1561708647:0;cd veres
+: 1561708648:0;ls
+: 1561708659:0;ls -lh veres
+: 1561708665:0;ls -lah
+: 1561708682:0;cd .ssh
+: 1561708709:0;ls
+: 1561708798:0;ls -lah
+: 1561708856:0;cat id_rsa.pub
+: 1561709215:0;hostname
+: 1561709232:0;ssh flow@192.168.5.20
+: 1561709649:0;exit
+: 1561710186:0;pwd
+: 1561710192:0;ssh flow@192.168.5.20
+: 1561715226:0;netstat
+: 1561715323:0;netstat -plnt
+: 1561724856:0;exit
+: 1561726449:0;pwd
+: 1561726452:0;cd veres
+: 1561726458:0;ls
+: 1561726483:0;cd Flow
+: 1561726484:0;ls
+: 1561726494:0;cd zeta-lunar-rescue
+: 1561726927:0;git checkout -b feature/card-18-spaceship-fly-up
+: 1561726967:0;touch spaceship-fly-up.js
+: 1561726971:0;ls
+: 1561727483:0;git checkout development
+: 1561727493:0;git pull
+: 1561727527:0;git checkout feature/card-18-spaceship-fly-up
+: 1561729299:0;git checkout development
+: 1561729306:0;git pull
+: 1561729343:0;git checkout feature/card-18
+: 1561729365:0;git checkout feature/card-18-spaceship-fly-up
+: 1561729555:0;git checkout development
+: 1561729590:0;git pull
+: 1561729610:0;code spaceship-landing.js
+: 1561729760:0;cat spaceship-landing.js
+: 1561730145:0;node index.js
+: 1561730217:0;pwd
+: 1561730222:0;ls
+: 1561730225:0;cd Flow
+: 1561730232:0;cd zeta-lunar-rescue
+: 1561730240:0;node index.js
+: 1561732843:0;cd Flow
+: 1561732847:0;ls
+: 1561732857:0;cd zeta-lunar-rescue
+: 1561732868:0;node index.js
+: 1561733663:0;git checkout feature/card-18-spaceship-fly-up
+: 1561733696:0;git commit
+: 1561733950:0;git stash≈±
+: 1561733953:0;git stash
+: 1561733957:0;git checkout feature/card-18-spaceship-fly-up
+: 1561733963:0;git stash pop
+: 1561734079:0;git add .
+: 1561734086:0;git commit
+: 1561734156:0;git push
+: 1561734160:0;ls
+: 1561734173:0;git push .
+: 1561734176:0;ls
+: 1561734199:0;node index.js
+: 1561734268:0;git checkout development
+: 1561734274:0;node index.js
+: 1561734366:0;pwd
+: 1561734370:0;cd Flow
+: 1561734378:0;cd zeta-lunar-rescue
+: 1561734399:0;git checkout feature/card-18-spaceship-fly-up
+: 1561734406:0;node index.js
+: 1561734792:0;git checkout development
+: 1561734796:0;node index.js
+: 1561734903:0;git log
+: 1561735054:0;pwd
+: 1561735057:0;cd Flow
+: 1561735068:0;ls
+: 1561735103:0;mkdir lunarTest
+: 1561735205:0;cd lunarTest
+: 1561735211:0;node index.js
+: 1561735324:0;pwd
+: 1561735330:0;cd Flow
+: 1561735332:0;ls
+: 1561735605:0;cd lunarTest
+: 1561735612:0;node index.js
+: 1561735728:0;cd ..
+: 1561735730:0;ls
+: 1561735741:0;cd zeta-lunar-rescue
+: 1561735847:0;git checkout feature/card-18-spaceship-fly-up
+: 1561735869:0;index.js
+: 1561735875:0;node index.js
+: 1561735943:0;cd ..
+: 1561735949:0;ls
+: 1561735959:0;cd lunarTest
+: 1561735961:0;ls
+: 1561735974:0;node index.js
+: 1561737571:0;ls
+: 1561737573:0;cd
+: 1561737583:0;cd Flow
+: 1561737585:0;ls
+: 1561737593:0;cd lunarTest
+: 1561737598:0;node index.js
+: 1561738413:0;cd ..
+: 1561738668:0;ls
+: 1561738676:0;cd zeta-lunar-rescue
+: 1561738690:0;node index.js
+: 1561738704:0;git checkout development
+: 1561738711:0;node index.js
+: 1561742698:0;cd Flow
+: 1561742710:0;cd zeta-lunar-rescue
+: 1561742740:0;sudo index.js
+: 1561742754:0;cd Flow
+: 1561742760:0;cd zeta-lunar-rescue
+: 1561742766:0;node index.js
+: 1561742827:0;git checkout feature/card-18-spaceship-fly-up
+: 1561742830:0;ls
+: 1561742843:0;node index.js
+: 1561742855:0;cd ..
+: 1561742860:0;cd zeta-lunar-rescue
+: 1561742864:0;cd ..
+: 1561742878:0;cd lunarTest
+: 1561742883:0;node index.js
+: 1561744083:0;cd ..
+: 1561744091:0;cd zeta-lunar-rescue
+: 1561744092:0;ls
+: 1561744103:0;node index.js
+: 1561746625:0;cd Flow
+: 1561746632:0;cd lunarTest
+: 1561746642:0;node index.js
+: 1561746877:0;git pull
+: 1561746904:0;[200~git branch --set-upstream-to=origin/<branch> feature/card-18-spaceship-fly-up
+: 1561746944:0;~git branch --set-upstream-to=origin/feature/card-18-spaceship-fly-up\
+ feature/card-18-spaceship-fly-up\
+
+: 1561746955:0;git branch --set-upstream-to=origin/feature/card-18-spaceship-fly-up\
+ feature/card-18-spaceship-fly-up\
+
+: 1561747018:0;git commit
+: 1561747038:0;git push
+: 1561747078:0;git push --set-upstream origin feature/card-18-spaceship-fly-up\
+
+: 1561747129:0;node index.js
+: 1561748313:0;cd ..
+: 1561748327:0;ls
+: 1561748334:0;cd ..
+: 1561748341:0;ls
+: 1561748580:0;cd Flow
+: 1561748583:0;cd temp
+: 1561748590:0;node index.js
+: 1561748875:0;cd ..
+: 1561748903:0;cd zeta-lunar-rescue
+: 1561748906:0;ls
+: 1561748913:0;index.js
+: 1561748919:0;node index.js
+: 1561749078:0;git pull
+: 1561749085:0;git commit
+: 1561749101:0;git push
+: 1561749331:0;cd Flow
+: 1561749346:0;ls
+: 1561749352:0;cd zeta-lunar-rescue
+: 1561749357:0;node index.js
+: 1561786937:0;pwd
+: 1561786949:0;cd Flow
+: 1561786953:0;cd zeta-lunar-rescue
+: 1561786961:0;index.js
+: 1561786972:0;node index.js
+: 1561787040:0;cd ..
+: 1561787059:0;cd zeta-lunar-rescue
+: 1561787067:0;git add
+: 1561787076:0;git add .
+: 1561787083:0;git commit
+: 1561787124:0;git push
+: 1561787256:0;node index.js
+: 1561787366:0;git checkout development
+: 1561787372:0;node index.js
+: 1561787441:0;git checkout feature/card-18-spaceship-fly-up
+: 1561787445:0;node index.js
+: 1561809670:0;cd Flow
+: 1561809677:0;ls
+: 1561809682:0;cd temp
+: 1561809684:0;ls
+: 1561811082:0;cd ..
+: 1561811088:0;cd temp
+: 1561811095:0;node index.js
+: 1561811107:0;cd ..
+: 1561811116:0;cd zeta-lunar-rescue
+: 1561811125:0;node index.js
+: 1561811268:0;cd ..
+: 1561811296:0;node mothership.js
+: 1561811326:0;node mothership-exercies.js
+: 1561811978:0;cd Flow
+: 1561811982:0;ls
+: 1561811999:0;node mothership-exercies.js
+: 1561812074:0;cd temp
+: 1561812119:0;node mothership-exercies.js
+: 1561812982:0;cd ..
+: 1561812988:0;cd zeta-lunar-rescue
+: 1561813028:0;node index.js
+: 1561918095:0;pwd
+: 1561918100:0;cd Flow
+: 1561918132:0;ls
+: 1561918137:0;cd zeta-lunar-rescue
+: 1561918167:0;node index.js
+: 1561919755:0;cd ..
+: 1561919832:0;cd temp
+: 1561919833:0;ls
+: 1561919849:0;node mothership-exercies.js
+: 1561927190:0;cd Flow
+: 1561927218:0;cd temp
+: 1561927228:0;node mothership-exercies.js
+: 1561966114:0;pwd
+: 1561966117:0;cd Flow
+: 1561966120:0;ls
+: 1561966171:0;cd zeta-lunar-rescue
+: 1561973686:0;git checkout development
+: 1561973793:0;git status
+: 1561973805:0;git add .
+: 1561973808:0;git commit
+: 1561973823:0;git push
+: 1561973850:0;git status
+: 1561973856:0;git checkout development
+: 1561973863:0;git pull
+: 1561974012:0;git checkout -b feature/card-25-separate constants to file
+: 1561974046:0;git checkout -b feature/card-25-separate-constants-to-file
+: 1561974140:0;index.js
+: 1561974150:0;node index.js
+: 1561974162:0;ls
+: 1561974199:0;npm install
+: 1561974205:0;node index.js
+: 1561976487:0;pwd
+: 1561976489:0;ls
+: 1561976498:0;cd Flow
+: 1561976500:0;ls
+: 1561976521:0;cd zeta-lunar-rescue
+: 1561976549:0;git checkout development
+: 1561976564:0;node index.js
+: 1561976838:0;git checkout feature/card-25-separate-constans-to-file
+: 1561976962:0;git checkout 200~feature/card-25-separate-constants-to-file
+: 1561976985:0;git checkout feature/card-25-separate-constants-to-file
+: 1561977009:0;index.js
+: 1561977014:0;node index.js
+: 1561978094:0;CD fLOW
+: 1561978099:0;cd Flow
+: 1561978104:0;cd zeta-lunar-rescue
+: 1561978112:0;node index.js
+: 1561978548:0;CD Flow
+: 1561978551:0;cd Flow
+: 1561978561:0;cd zeta-lunar-rescue
+: 1561978569:0;node index.js
+: 1561980977:0;git checkout development
+: 1561980989:0;node index.js
+: 1561981199:0;git checkout feature/25-separate-constants-to-file
+: 1561981260:0;git checkout feature/card-25-separate-constans-to-file
+: 1561981270:0;git checkout feature/card-25-separate-constants-to-file
+: 1561981281:0;index.js
+: 1561981286:0;node index.js
+: 1561984440:0;ls
+: 1561986103:0;node index.js
+: 1561986218:0;git checkout development
+: 1561986235:0;node index.js
+: 1561986354:0;git pull
+: 1561986371:0;node index.js
+: 1561986442:0;git pull
+: 1561986510:0;git status
+: 1561986528:0;gco feature/card-25-separate-constants-to-file
+: 1561986531:0;ga .
+: 1561986556:0;gc -m 
+: 1561986569:0;git checkout development
+: 1561986585:0;git pull
+: 1561986609:0;gst
+: 1561986616:0;gco feature/card-25-separate-constants-to-file
+: 1561986621:0;ga .
+: 1561986624:0;gc
+: 1561986734:0;git push
+: 1561986772:0;git push --set-upstream origin feature/card-25-separate-constants-to-file\
+
+: 1561986807:0;git checkout development
+: 1561986817:0;node index.js
+: 1561986896:0;git pull
+: 1561986901:0;code ,
+: 1561986916:0;code .
+: 1561986936:0;node index.js
+: 1561987098:0;git feature/card-25-separate-constants-to-file
+: 1561987151:0;git checkout feature/card-25-separate-constants-to-file
+: 1561987418:0;git checkout -b feature/card-29-move-files-to-lib-folder
+: 1561987426:0;ls
+: 1561987458:0;mkdir lib
+: 1561987497:0;cp asteroids.js constanses.js mothership.js /lib
+: 1561987505:0;ls
+: 1561987531:0;chmod 777 asteroid.js
+: 1561987542:0;chmod 777 asteroids.js
+: 1561987629:0;chmod 777 constanses.js scoreboard.js spaceship-fly-up.js board.js index.js mothership.js
+: 1561987679:0;mv  asteroids.js constanses.js mothership.js /lib
+: 1561987714:0;mv  asteroids.js ./lib
+: 1561987739:0;mv constanses.js mothership.js ./lib
+: 1561987741:0;ls
+: 1561987813:0;mv board.js scoreboard.js scoreboard.txt spaceship-fly-up.js spaceship-landing.js ./lib
+: 1561987815:0;ls
+: 1561987826:0;cd lib
+: 1561987828:0;ls
+: 1561987869:0;cd ..
+: 1561987886:0;node index.js
+: 1561988260:0;git add .
+: 1561988269:0;git commit
+: 1561988306:0;git push
+: 1561988328:0;git push --set-upstream origin feature/card-29-move-files-to-lib-folder\
+
+: 1561990018:0;git checkout feature/card-25-separate-constants-to-file
+: 1561990024:0;gl
+: 1561990039:0;gco development
+: 1561990042:0;gl
+: 1561990054:0;git checkout feature/card-25-separate-constants-to-file
+: 1561990140:0;gm development
+: 1561990681:0;gst
+: 1561990687:0;ga .
+: 1561990690:0;gc
+: 1561990696:0;gp
+: 1561990833:0;gco development
+: 1561990837:0;gl
+: 1561990846:0;node index.js
+: 1561991361:0;ga .
+: 1561991377:0;gc -m hotfix
+: 1561991380:0;gp
+: 1561991449:0;git branch -d feature/card-18-spaceship-fly-up
+: 1561991462:0;git branch -D feature/card-18-spaceship-fly-up
+: 1561991477:0;git branch feature/card-18-spaceship-fly-up
+: 1561991486:0;gco feature/card-18-spaceship-fly-up
+: 1561991489:0;gp
+: 1561991507:0;git push --set-upstream origin feature/card-18-spaceship-fly-up\
+
+: 1561992607:0;node index.js\
+
+: 1561993137:0;cd Flow
+: 1561993146:0;cd zeta-lunar-rescue
+: 1561993158:0;index.js
+: 1561993164:0;node index.js
+: 1562002546:0;cd Flow
+: 1562002557:0;cd zeta-lunar-rescue
+: 1562004905:0;node index.js
+: 1562009330:0;git add .
+: 1562009335:0;git commit
+: 1562009383:0;git push
+: 1562009818:0;node index.js
+: 1562009933:0;pwd
+: 1562009936:0;cd Flow
+: 1562009941:0;cd zeta-lunar-rescue
+: 1562009946:0;node index.js
+: 1562012643:0;cd zeta-lunar-rescue
+: 1562012651:0;node index.js
+: 1562016884:0;cd Flow
+: 1562016889:0;cd zeta-lunar-rescue
+: 1562016900:0;node index.js
+: 1562018220:0;cd Flow
+: 1562018224:0;cd zeta-lunar-rescue
+: 1562018231:0;node index
+: 1562018729:0;git add.
+: 1562018739:0;git add .
+: 1562018744:0;git commit
+: 1562018817:0;git pull
+: 1562018861:0;git add .
+: 1562018865:0;git commit
+: 1562018881:0;git push
+: 1562018925:0;git pull
+: 1562018956:0;git push
+: 1562018977:0;git remote
+: 1562051996:0;pwd
+: 1562051998:0;ls
+: 1562052005:0;cd Flow
+: 1562052019:0;cd zeta-lunar-rescue
+: 1562052022:0;index.js
+: 1562052028:0;node index.js
+: 1562052078:0;git . add
+: 1562052086:0;git add .
+: 1562052094:0;git commit
+: 1562052109:0;git push
+: 1562052198:0;node index.js
+: 1562053419:0;CD fLOW
+: 1562053423:0;cd Flow
+: 1562053429:0;cd zeta-lunar-rescue
+: 1562053433:0;node index.js
+: 1562057532:0;cd Flow
+: 1562057552:0;cd zeta-lu
+: 1562057555:0;cd zeta-lunar-rescue
+: 1562057565:0;node index.js
+: 1562062851:0;cd Flow
+: 1562062859:0;cd zeta-lunar-rescue
+: 1562062863:0;node index.js
+: 1562063788:0;cd Flow
+: 1562063793:0;cd zeta-lunar-rescue
+: 1562063798:0;node index.js
+: 1562063861:0;cd Flow
+: 1562063867:0;cd zeta-lunar-rescue
+: 1562063872:0;node index.js
+: 1562064507:0;cd Flow
+: 1562064511:0;cd zeta-lunar-rescue
+: 1562064517:0;node index.js
+: 1562066663:0;cd Flow
+: 1562066667:0;cd zeta-lunar-rescue
+: 1562066672:0;node index.js
+: 1562073063:0;cd Flow
+: 1562073078:0;cd zeta-lunar-rescue
+: 1562073083:0;node index.js
+: 1562078856:0;git add .
+: 1562078859:0;git commit
+: 1562078877:0;git push
+: 1562079162:0;git checkout development
+: 1562079177:0;node index.js
+: 1562079190:0;git pull
+: 1562079195:0;node index.js
+: 1562079619:0;git pull
+: 1562079625:0;node index.js
+: 1562091803:0;cd Flow
+: 1562091814:0;cd zeta-lunar-rescue
+: 1562092652:0;node index.js
+: 1562093504:0;git checkout -b feature/card-35-spaceship-shooting
+: 1562094776:0;node index.js
+: 1562095419:0;git add .
+: 1562095426:0;git commit
+: 1562096129:0;node index.js
+: 1562097503:0;git add .
+: 1562097506:0;git commit
+: 1562098995:0;node index.js
+: 1562101537:0;cd Flow
+: 1562101543:0;cd zeta-lunar-rescue
+: 1562101547:0;node index.js
+: 1562106883:0;git add .
+: 1562106887:0;git commit
+: 1562106909:0;git push
+: 1562106929:0;git push --set-upstream origin feature/card-35-spaceship-shooting\
+
+: 1562107198:0;node index.js
+: 1562138305:0;cd Flow
+: 1562138311:0;cd zeta-lunar-rescue
+: 1562138317:0;node index.js
+: 1562139022:0;git status
+: 1562139033:0;git add .
+: 1562139037:0;git commit
+: 1562139162:0;git push
+: 1562139330:0;git checkout development
+: 1562139368:0;git pull
+: 1562139949:0;node index.js
+: 1562145823:0;cd Flow
+: 1562145828:0;cd zeta-lunar-rescue
+: 1562145835:0;node index.js
+: 1562146976:0;git add .
+: 1562146979:0;git commit
+: 1562147525:0;git push
+: 1562147534:0;git pull
+: 1562147555:0;node index.js
+: 1562147979:0;git checkout -b feature/card-37-controlling-optimalization
+: 1562149048:0;node index.js
+: 1562157545:0;git add .
+: 1562157548:0;git commit
+: 1562157614:0;git push
+: 1562157625:0;git push --set-upstream origin feature/card-37-controlling-optimalization
+: 1562157714:0;node index.js
+: 1562158947:0;cd Flow
+: 1562158953:0;cd zeta-lunar-rescue
+: 1562158961:0;node index.js
+: 1562159286:0;cd Flow
+: 1562159288:0;node index.js
+: 1562159292:0;cd zeta-lunar-rescue
+: 1562159296:0;node index.js
+: 1562166607:0;git add .
+: 1562166612:0;git commit
+: 1562166710:0;git push
+: 1562173760:0;cd Flow
+: 1562173770:0;cd zeta-lunar-rescue
+: 1562173782:0;node index.js
+: 1562184673:0;index.js
+: 1562184681:0;node index.js
+: 1562188141:0;git add .
+: 1562188147:0;git commit
+: 1562188184:0;git push
+: 1562223401:0;cd Flow
+: 1562223407:0;cd zeta-lunar-rescue
+: 1562223413:0;node index.js
+: 1562225567:0;cd Flow
+: 1562225569:0;cd zeta-lunar-rescue
+: 1562225574:0;node index.js
+: 1562225697:0;cd Flow
+: 1562225712:0;cd zeta-
+: 1562225718:0;cd zeta-lunar-rescue
+: 1562225804:0;git add .
+: 1562225809:0;git commit 
+: 1562225820:0;git push
+: 1562225872:0;git pull
+: 1562225883:0;git checkout development
+: 1562225887:0;git pull
+: 1562225980:0;node index.js
+: 1562227136:0;cd Flow
+: 1562227142:0;cd zeta-lunar-rescue
+: 1562227163:0;node index.js
+: 1562228564:0;cd Flow
+: 1562228569:0;cd zeta-lunar-rescue
+: 1562228572:0;git pull
+: 1562228589:0;node index.js
+: 1562228619:0;cd Flow
+: 1562228631:0;cd zeta-lunar-rescue
+: 1562228664:0;node index.js
+: 1562228687:0;cd Flow
+: 1562228694:0;cd zeta-lunar-rescue
+: 1562228698:0;git pull
+: 1562228768:0;git stash list
+: 1562228785:0;git stash
+: 1562228789:0;git pull
+: 1562228826:0;node index.js
+: 1562231839:0;git checkout -b feature/card-42-spaceship-landing-slow-button
+: 1562231997:0;node index.js
+: 1562235976:0;git checkout -b feature/card-42-spaceship-landing-slow-button
+: 1562235980:0;node index.js
+: 1562244189:0;git add .
+: 1562244194:0;git commit
+: 1562244493:0;git push
+: 1562244502:0;git push --set-upstream origin feature/card-42-spaceship-landing-slow-button\
+
+: 1562249904:0;git checkout development
+: 1562249908:0;git pull
+: 1562249975:0;node index.js
+: 1562250216:0;git commit -a
+: 1562250256:0;git push
+: 1562252208:0;node index.js
+: 1562253014:0;git pull
+: 1562253121:0;node index.js
+: 1562306665:0;cd Flow
+: 1562306676:0;cd zeta-lunar-rescue
+: 1562306683:0;node index.js
+: 1562312379:0;cd Flow
+: 1562312385:0;cd zeta-luna
+: 1562312402:0;cd zeta-lunar-rescue
+: 1562312426:0;git pull
+: 1562312965:0;node index.js
+: 1562313096:0;git add .
+: 1562313099:0;git commit
+: 1562313122:0;git push
+: 1562313130:0;git pull
+: 1562313159:0;node index.js
+: 1562313658:0;git pull
+: 1562313690:0;node index.js
+: 1562314432:0;git checkout-b feature/card-45-test
+: 1562314591:0;git checkout -b feature/card-45-test
+: 1562314813:0;node index.js
+: 1562317848:0;git checkout development
+: 1562317858:0;node index.js
+: 1562317894:0;git pull
+: 1562317901:0;node index.js
+: 1562317937:0;git status
+: 1562317965:0;git checkout -- asteroid.js
+: 1562317976:0;git checkout -- asteroids.js
+: 1562317993:0;git checkout -- constanses.js
+: 1562318000:0;git checkout -- index.js
+: 1562318005:0;git status
+: 1562318038:0;node index.js
+: 1562321775:0;git pull
+: 1562321787:0;node index.js
+: 1562501614:0;cd Flow
+: 1562501620:0;cd zeta-lunar-rescue
+: 1562501631:0;node index.js
+: 1562505172:0;cd ..
+: 1562505468:0;cd Javascript
+: 1562505482:0;node practise-0707-progtetelek.js
+: 1562522805:0;ls
+: 1562522820:0;cat file1.js
+: 1562522860:0;cat< file1.js
+: 1562522869:0;cat < file1.js
+: 1562522878:0;cat > file1.js
+: 1562523128:0;ls
+: 1562523142:0;touch gyak.txt
+: 1562523143:0;ls
+: 1562523153:0;touch gyak.txt
+: 1562523157:0;ls
+: 1562523164:0;touch gyak2.txt
+: 1562523231:0;echo 'Szia!' gyak.tyt
+: 1562523243:0;echo 'Szia!' > gyak.txt
+: 1562523249:0;cat gyak.txt
+: 1562523294:0;cat gyak.txt > gyak2.txt
+: 1562523302:0;cat gyak2.txt
+: 1562523496:0;touch gyak3.txt
+: 1562523516:0;rm gyak3.txt
+: 1562523518:0;ls
+: 1562523535:0;touch gyak3.txt
+: 1562523539:0;ls
+: 1562523548:0;rm gyak3.txt
+: 1562523550:0;ls
+: 1562523895:0;ls -l >> gyak2.txt
+: 1562523901:0;cat gyak2.txt
+: 1562523910:0;ls -lh
+: 1562523920:0;ls -l
+: 1562523927:0;ls -lh
+: 1562524871:0;ls
+: 1562524894:0;ln gyak.txt gyak3.txt
+: 1562524895:0;ls
+: 1562524915:0;ln -s gyak.txt gyak4.txt
+: 1562524924:0;ls -lh
+: 1562525213:0;cat gyak.txt
+: 1562525236:0;echo > gyak.txt szevasz tavasz itt a ny√ÉÅr
+: 1562525239:0;cat gyak.txt
+: 1562525252:0;split -b 10 gyak.txt
+: 1562525254:0;ls
+: 1562525306:0;cat x*
+: 1562525341:0;cat gyak.txt
+: 1562525349:0;cat gyak2.txt
+: 1562525371:0;touck gyak3.txt
+: 1562525376:0;touch gyak3.txt
+: 1562525384:0;ls
+: 1562525391:0;touch gyak5.txt
+: 1562525429:0;cat *x > gyak5.txt
+: 1562525445:0;cat x* gyak5.txt
+: 1562525454:0;cat gyak5.txt
+: 1562525460:0;cat x* > gyak5.txt
+: 1562525466:0;cat gyak5.txt
+: 1562525605:0;cat *2
+: 1562525641:0;rm x*
+: 1562525643:0;ls
+: 1562525696:0;cat gyak5.txt
+: 1562525727:0;cat gyak5.txt | grep itt
+: 1562525737:0;cat gyak5.txt
+: 1562525998:0;echo 'szevasz' > gyak5.txt
+: 1562526002:0;cat gyak5.txt
+: 1562526039:0;echo 'szia' gyak5.txt
+: 1562526056:0;echo szia > gyak5.txt
+: 1562526059:0;cat gyak5.txt
+: 1562526079:0;cat 
+: 1562526106:0;echo szia szevasz tavasz ny√ÉÅr ≈É±sz szia tavasz > gyak5.txt
+: 1562526110:0;cat gyak5.txt
+: 1562526134:0;cat gyak5.txt | sort | uniq
+: 1562526158:0;cat gyak5.txt|sort|uniq
+: 1562526195:0;cat gyak5.txt | sort | uniq | wc -l
+: 1562526475:0;echo t√©l >> gyak5.txt
+: 1562526481:0;cat gyak5.txt
+: 1562526616:0;cat gyak5.txt | sort
+: 1562526710:0;cat gyak5.txt|sort
+: 1562526715:0;cat gyak5.txt |sort
+: 1562526723:0;cat gyak5.txt| sort
+: 1562526775:0;cat .zsh_history | less
+: 1562526793:0;cd Flow
+: 1562526799:0;cd Javascript
+: 1562526800:0;ls
+: 1562526886:0;nano .zshrc
+: 1562526996:0;source .zshrc
+: 1562527029:0;touch welcome
+: 1562527046:0;nano welcome
+: 1562527139:0;chmod u+x welcome
+: 1562527145:0;welcome G√ÉÅbor
+: 1562527154:0;ls
+: 1562527221:0;mv welcome welcome.bs
+: 1562527230:0;welcome G√ÉÅbor
+: 1562527241:0;mv welcome.bs welcome.bh
+: 1562527243:0;welcome G√ÉÅbor
+: 1562527283:0;mv welcome.bh welcome.sh
+: 1562527285:0;welcome G√ÉÅbor
+: 1562527297:0;nano welcome.sh
+: 1562527308:0;welcome G√ÉÅbor
+: 1562527365:0;welcome.sh G√ÉÅbor
+: 1562527378:0;ls
+: 1562527400:0;chmod u+x welcome.sh
+: 1562527405:0;welcome.sh G√ÉÅbor
+: 1562527414:0;welcome G√ÉÅbor
+: 1562527421:0;ls
+: 1562527798:0;echo "Szia $user"
+: 1562527803:0;echo "Szia $USERr"
+: 1562527807:0;echo "Szia $USER"
+: 1562527884:0;p2 a
+: 1562527887:0;p2
+: 1562527890:0;pz a
+: 1562527892:0;pz 
+: 1562527893:0;pz
+: 1562527991:0;cat /proc/sys/kernel/pid_max
+: 1562528628:0;ls -lh
+: 1562528811:0;chown root:root gyak3.txt
+: 1562528832:0;chmod 777 gyak3.txt
+: 1562528835:0;chown root:root gyak3.txt
+: 1562528866:0;sudo chown root:root gyak3.txt
+: 1562528878:0;ls -lh
+: 1562530993:0;./welcome.sh G√ÉÅbor 
+: 1562532020:0;nano welcome.sh
+: 1562532032:0;./welcome.sh G√ÉÅbor
+: 1562532036:0;nano welcome.sh
+: 1562532054:0;./welcome.sh G√ÉÅbor
+: 1562565489:0;cd Flow
+: 1562565491:0;ls
+: 1562565498:0;cd Javascript
+: 1562565521:0;ls
+: 1562565539:0;cat gyak5.txt
+: 1562565554:0;nanogyak5.txt
+: 1562565559:0;nano gyak5.txt
+: 1562565609:0;cat gyak5.txt | sort
+: 1562565659:0;cat gyak5.txt | sort | uniq
+: 1562565747:0;cat gyak5.txt | sort | uniq | wc -l
+: 1562565764:0;cat gyak5.txt
+: 1562570009:0;cd Flow
+: 1562570030:0;mkdir Modulzarovizsga
+: 1562570032:0;ls
+: 1562570056:0;cd Modulzarovizsga
+: 1562570059:0;git init
+: 1562570101:0;ls
+: 1562570116:0;mv Programozasi-alapok Programozasi-alapok.js
+: 1562570117:0;ls
+: 1562570229:0;mkdir Programozasi-alapok
+: 1562570238:0;cd Programozasi alapok
+: 1562570246:0;cd Programozasi-alapok
+: 1562570250:0;cd ..
+: 1562570285:0;mkdir programozasi-alapok
+: 1562570287:0;ls
+: 1562570297:0;cd programozasi-alapok
+: 1562570302:0;git init
+: 1562573733:0;npm install -g readline-sync
+: 1562573738:0;sudo npm install -g readline-sync
+: 1562573772:0;node Programozasi-alapok.js
+: 1562573891:0;cd ..
+: 1562573913:0;mkdir programozasi_alapok
+: 1562573929:0;cd programozasi_alapok
+: 1562573932:0;git init
+: 1562573937:0;ls
+: 1562573948:0;git add README.md
+: 1562573971:0;git commit -m "programozasi alapok"
+: 1562574007:0;git remote add origin git@github.com:Veresgabi/programozasi-alapok.git
+: 1562574017:0;git commit -m "programozasi alapok"
+: 1562574040:0;git add .
+: 1562574048:0;git commit -m "programozasi alapok"
+: 1562574056:0;git push
+: 1562574070:0;git push --set-upstream origin master\
+
+: 1562574085:0;ls
+: 1562574161:0;cd ..
+: 1562574177:0;touch linux.txt
+: 1562574306:0;nano linux.txt
+: 1562574749:0;mkdir linux
+: 1562574764:0;mv linux.txt /linux
+: 1562574787:0;chmod 777 linux.txt
+: 1562574793:0;mv linux.txt /linux
+: 1562574800:0;ls -lh
+: 1562574862:0;cd programozasi_alapok
+: 1562574864:0;ls -lh
+: 1562574879:0;cd ..
+: 1562574887:0;cd linux
+: 1562574907:0;chown user:user linux.txt
+: 1562574917:0;cat linux.txt
+: 1562574932:0;touch zeta-szakaszzaro
+: 1562574950:0;echo zeta-szakaszzaro 'Hello'
+: 1562574968:0;echo 'Hello' > zeta-szakaszzaro
+: 1562574978:0;cat zeta-szakaszzaro
+: 1562575002:0;mv zeta-szakaszzaro feladat
+: 1562575003:0;ls
+: 1562575023:0;cp feladat feladat2
+: 1562575025:0;ls
+: 1562575066:0;rm feladat2
+: 1562575075:0;cat feladat
+: 1562575195:0;cat feladat > feladatkiiratas
+: 1562575196:0;ls
+: 1562575204:0;cat feladatkiiratas
+: 1562575330:0;grep NetworkManager /var/log/syslog 
+: 1562575417:0;grep NetworkManager /var/log/syslog > syslogNetworkManagerlist
+: 1562575429:0;cat syslogNetworkManagerlist
+: 1562575486:0;ls -lh /etc/systemd
+: 1562575553:0;ls -lh /etc/systemd > systemdlist
+: 1562575561:0;cat systemdlist
+: 1562575577:0;ls -lh /etc/systemd
+: 1562575633:0;cat .conf
+: 1562575650:0;ls -lh /etc/systemd cat *.conf
+: 1562575671:0;cat *.conf ls -lh /etc/systemd
+: 1562575684:0;/etc/systemd
+: 1562575702:0;cat *.conf
+: 1562575768:0;install mysql-server
+: 1562575809:0;mysql-server install
+: 1562575873:0;cd ..
+: 1562575878:0;cd Flow
+: 1562575881:0;pwd
+: 1562575888:0;ls
+: 1562575894:0;cd home
+: 1562575898:0;cd veres/Flow
+: 1562575902:0;ls
+: 1562575915:0;cd linux
+: 1562575981:0;cp ~/.zsh_history linux

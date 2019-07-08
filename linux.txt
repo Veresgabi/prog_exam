@@ -1,0 +1,11 @@
+5. 
+A /bin mappa a binárisokattartalmazza, azaz a futtatható programokat.
+Az/usr mappa a telepített programokat tartalmazza.
+A /home mappa a felhasználóksaját könyvtárait tartalmazzák.
+
+6. A ponttal kezdődő fájlok rejtett fájlok.
+
+7. Abszolút elérési útvonal: /home/veres/Flow
+ relatívelérési útvponal: /Flow/Javascript/feladat.js
+
+8.  

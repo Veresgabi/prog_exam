@@ -1,0 +1,402 @@
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565024.0594] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565024.0596] manager: NetworkManager state is now ASLEEP
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565024.0599] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 dbus-daemon[570]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=652 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565024.0731] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565024.1108] dhcp4 (wlo1): canceled DHCP transaction, DHCP client pid 1259
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565024.1108] dhcp4 (wlo1): state changed bound -> done
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <warn>  [1562565024.1253] sup-iface[0x55ca2583a2f0,wlo1]: connection disconnected (reason -3)
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565024.1257] device (wlo1): supplicant interface state: completed -> disconnected
+Jul  8 07:50:24 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565024.1263] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jul  8 07:50:36 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565036.8052] bluez5: NAP: removed interface 34:02:86:36:09:D3
+Jul  8 07:50:37 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565037.0964] bluez5: NAP: added interface 34:02:86:36:09:D3
+Jul  8 07:50:38 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565038.2197] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Jul  8 07:50:38 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565038.2198] device (enp0s25): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jul  8 07:50:38 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565038.3006] device (enp0s25): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jul  8 07:50:38 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565038.4879] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jul  8 07:50:38 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565038.5964] manager: NetworkManager state is now DISCONNECTED
+Jul  8 07:50:38 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565038.6580] device (wlo1): supplicant interface state: starting -> ready
+Jul  8 07:50:38 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565038.6581] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jul  8 07:50:41 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565041.9973] policy: auto-activating connection 'VeresWifi'
+Jul  8 07:50:41 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565041.9987] device (wlo1): Activation: starting connection 'VeresWifi' (f0ea5469-c9f1-4a9b-babb-948bc3e5e72a)
+Jul  8 07:50:41 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565041.9990] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:41 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565041.9992] manager: NetworkManager state is now CONNECTING
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565041.9998] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0001] device (wlo1): Activation: (wifi) access point 'VeresWifi' has security, but secrets are required.
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0001] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0002] sup-iface[0x55ca2595c800,wlo1]: wps: type pbc start...
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0053] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0059] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0062] device (wlo1): Activation: (wifi) connection 'VeresWifi' has security, and secrets exist.  No new secrets needed.
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0063] Config: added 'ssid' value 'VeresWifi'
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0063] Config: added 'scan_ssid' value '1'
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0064] Config: added 'bgscan' value 'simple:30:-80:86400'
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0064] Config: added 'key_mgmt' value 'WPA-PSK'
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0064] Config: added 'psk' value '<hidden>'
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0205] device (wlo1): supplicant interface state: ready -> authenticating
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0289] device (wlo1): supplicant interface state: authenticating -> associating
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0422] device (wlo1): supplicant interface state: associating -> 4-way handshake
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0612] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0613] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'VeresWifi'.
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0616] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0629] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.0670] dhcp4 (wlo1): dhclient started with pid 1601
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1169] dhcp4 (wlo1):   address 192.168.1.105
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1169] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1169] dhcp4 (wlo1):   gateway 192.168.1.1
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1170] dhcp4 (wlo1):   lease time 7200
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1170] dhcp4 (wlo1):   nameserver '192.168.1.1'
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1170] dhcp4 (wlo1): state changed unknown -> bound
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1216] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1231] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1235] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1237] manager: NetworkManager state is now CONNECTED_LOCAL
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1558] manager: NetworkManager state is now CONNECTED_SITE
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1560] policy: set 'VeresWifi' (wlo1) as default for IPv4 routing and DNS
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.1566] device (wlo1): Activation: successful, device activated.
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 dbus-daemon[570]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=652 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 NetworkManager[652]: <info>  [1562565042.4469] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 whoopsie[1274]: [07:50:42] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/2
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 whoopsie[1274]: [07:50:42] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/2
+Jul  8 07:50:42 veres-HP-EliteBook-840-G2 whoopsie[1274]: [07:50:42] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/2
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 kernel: [    7.223195] audit: type=1400 audit(1562568933.986:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=429 comm="apparmor_parser"
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 kernel: [    7.223198] audit: type=1400 audit(1562568933.986:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=429 comm="apparmor_parser"
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.4171] NetworkManager (version 1.10.6) is starting... (for the first time)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.4171] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.4504] manager[0x560a9c7de060]: monitoring kernel firmware directory '/lib/firmware'.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.4504] monitoring ifupdown state file '/run/network/ifstate'.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.6613] hostname: hostname: using hostnamed
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.6614] hostname: hostname changed from (none) to "veres-HP-EliteBook-840-G2"
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.6620] dns-mgr[0x560a9c7f9950]: init: dns=systemd-resolved, rc-manager=symlink, plugin=systemd-resolved
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.6633] rfkill1: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.3/0000:03:00.0/ieee80211/phy0/rfkill1) (driver iwlwifi)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.6635] manager[0x560a9c7de060]: rfkill: WiFi hardware radio set enabled
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.6636] manager[0x560a9c7de060]: rfkill: WWAN hardware radio set disabled
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7017] init!
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7046]       interface-parser: parsing file /etc/network/interfaces
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7046]       interface-parser: finished parsing file /etc/network/interfaces
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7047] management mode: unmanaged
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7053] devices added (path: /sys/devices/pci0000:00/0000:00:19.0/net/enp0s25, iface: enp0s25)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7053] device added (path: /sys/devices/pci0000:00/0000:00:19.0/net/enp0s25, iface: enp0s25): no ifupdown configuration found.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7053] devices added (path: /sys/devices/pci0000:00/0000:00:1c.3/0000:03:00.0/net/wlan0, iface: wlan0)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7053] device added (path: /sys/devices/pci0000:00/0000:00:1c.3/0000:03:00.0/net/wlan0, iface: wlan0): no ifupdown configuration found.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7054] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7054] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7054] end _init.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7054] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7055] settings: loaded plugin keyfile: (c) 2007 - 2016 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7055] (-1669233536) ... get_connections.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7055] (-1669233536) ... get_connections (managed=false): return empty list.
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7316] keyfile: new connection /etc/NetworkManager/system-connections/VeresWifi (f0ea5469-c9f1-4a9b-babb-948bc3e5e72a,"VeresWifi")
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7587] keyfile: new connection /etc/NetworkManager/system-connections/FLOW academy (1fc6400c-c018-4447-a910-a5ca762a3e13,"FLOW academy")
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7618] get unmanaged devices count: 0
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7622] manager: rfkill: WiFi enabled by radio killswitch; enabled by state file
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7625] manager: rfkill: WWAN enabled by radio killswitch; disabled by state file
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7627] manager: Networking is enabled by state file
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7633] dhcp-init: Using DHCP client 'dhclient'
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7636] Loaded device plugin: NMBondDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7638] Loaded device plugin: NMBridgeDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7639] Loaded device plugin: NMDummyDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7639] Loaded device plugin: NMEthernetDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7639] Loaded device plugin: NMInfinibandDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7639] Loaded device plugin: NMIPTunnelDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7639] Loaded device plugin: NMMacsecDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7640] Loaded device plugin: NMMacvlanDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7640] Loaded device plugin: NMPppDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7640] Loaded device plugin: NMTunDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7640] Loaded device plugin: NMVethDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7640] Loaded device plugin: NMVlanDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7641] Loaded device plugin: NMVxlanDeviceFactory (internal)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7645] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7675] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-team.so)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7696] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7716] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7720] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7731] device (lo): carrier: link connected
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7756] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7805] manager: (enp0s25): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7839] keyfile: add connection in-memory (3dcb8d30-01de-3743-b842-a8b34bf55790,"Wired connection 1")
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7870] settings: (enp0s25): created default wired connection 'Wired connection 1'
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.7886] device (enp0s25): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.9864] wifi-nl80211: (wlan0): using nl80211 for WiFi device control
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.9869] device (wlan0): driver supports Access Point (AP) mode
+Jul  8 08:55:34 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568934.9886] manager: (wlan0): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/3)
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.0370] modem-manager: ModemManager available
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.0390] bluez: use BlueZ version 5
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.0430] supplicant: wpa_supplicant running
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.0518] bluez5: NAP: added interface 34:02:86:36:09:D3
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.0764] devices added (path: /sys/devices/pci0000:00/0000:00:1c.3/0000:03:00.0/net/wlo1, iface: wlo1)
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.0765] device added (path: /sys/devices/pci0000:00/0000:00:1c.3/0000:03:00.0/net/wlo1, iface: wlo1): no ifupdown configuration found.
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.0780] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.2688] device (wlo1): supplicant interface state: starting -> ready
+Jul  8 08:55:35 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568935.2690] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5019] policy: auto-activating connection 'FLOW academy'
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5044] device (wlo1): Activation: starting connection 'FLOW academy' (1fc6400c-c018-4447-a910-a5ca762a3e13)
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5052] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5069] manager: NetworkManager state is now CONNECTING
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5081] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5088] device (wlo1): Activation: (wifi) access point 'FLOW academy' has security, but secrets are required.
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5091] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5140] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5150] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5156] device (wlo1): Activation: (wifi) connection 'FLOW academy' has security, and secrets exist.  No new secrets needed.
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5160] Config: added 'ssid' value 'FLOW academy'
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5162] Config: added 'scan_ssid' value '1'
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5164] Config: added 'bgscan' value 'simple:30:-80:86400'
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5166] Config: added 'key_mgmt' value 'WPA-PSK'
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5168] Config: added 'auth_alg' value 'OPEN'
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5170] Config: added 'psk' value '<hidden>'
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5352] device (wlo1): supplicant interface state: ready -> authenticating
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.5439] device (wlo1): supplicant interface state: authenticating -> associating
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.6111] device (wlo1): supplicant interface state: associating -> completed
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.6112] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'FLOW academy'.
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.6115] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.6126] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Jul  8 08:55:38 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568938.6143] dhcp4 (wlo1): dhclient started with pid 1137
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2735] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2736] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2736] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2736] dhcp4 (wlo1):   lease time 600
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2736] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2737] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2737] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2737] dhcp4 (wlo1): state changed unknown -> bound
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2784] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2797] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2805] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2811] manager: NetworkManager state is now CONNECTED_LOCAL
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2937] manager: NetworkManager state is now CONNECTED_SITE
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2940] policy: set 'FLOW academy' (wlo1) as default for IPv4 routing and DNS
+Jul  8 08:55:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568939.2945] device (wlo1): Activation: successful, device activated.
+Jul  8 08:55:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568940.9865] manager: startup complete
+Jul  8 08:55:51 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562568951.7165] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul  8 08:55:51 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 08:55:51 veres-HP-EliteBook-840-G2 whoopsie[1276]: [08:55:51] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Jul  8 08:55:51 veres-HP-EliteBook-840-G2 whoopsie[1276]: [08:55:51] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Jul  8 08:55:51 veres-HP-EliteBook-840-G2 whoopsie[1276]: [08:55:51] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569187.0251] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569187.0251] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569187.0252] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569187.0252] dhcp4 (wlo1):   lease time 600
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569187.0252] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569187.0252] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569187.0252] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569187.0253] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 08:59:47 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569446.1873] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569446.1874] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569446.1874] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569446.1874] dhcp4 (wlo1):   lease time 600
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569446.1874] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569446.1875] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569446.1875] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569446.1875] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:04:06 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569719.2840] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569719.2840] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569719.2840] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569719.2840] dhcp4 (wlo1):   lease time 600
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569719.2841] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569719.2841] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569719.2841] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569719.2841] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:08:39 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569951.8862] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569951.8863] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569951.8863] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569951.8864] dhcp4 (wlo1):   lease time 600
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569951.8864] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569951.8864] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569951.8865] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562569951.8865] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:12:31 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570189.8839] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570189.8840] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570189.8841] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570189.8841] dhcp4 (wlo1):   lease time 600
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570189.8841] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570189.8842] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570189.8842] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570189.8842] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:16:29 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570432.7654] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570432.7655] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570432.7655] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570432.7655] dhcp4 (wlo1):   lease time 600
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570432.7656] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570432.7656] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570432.7656] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570432.7656] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:20:32 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570706.7182] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570706.7183] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570706.7183] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570706.7183] dhcp4 (wlo1):   lease time 600
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570706.7183] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570706.7183] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570706.7183] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570706.7184] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:25:06 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570982.3719] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570982.3720] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570982.3720] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570982.3720] dhcp4 (wlo1):   lease time 600
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570982.3720] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570982.3721] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570982.3721] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562570982.3721] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:29:42 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571212.8156] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571212.8157] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571212.8157] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571212.8157] dhcp4 (wlo1):   lease time 600
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571212.8157] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571212.8157] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571212.8157] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571212.8157] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:33:32 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571459.1408] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571459.1408] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571459.1408] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571459.1408] dhcp4 (wlo1):   lease time 600
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571459.1408] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571459.1409] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571459.1409] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571459.1409] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:37:39 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571700.0063] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571700.0063] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571700.0064] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571700.0064] dhcp4 (wlo1):   lease time 600
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571700.0064] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571700.0064] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571700.0064] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:41:40 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571700.0064] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571980.6771] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571980.6772] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571980.6772] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571980.6772] dhcp4 (wlo1):   lease time 600
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571980.6773] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571980.6773] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571980.6773] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562571980.6774] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:46:20 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572219.3979] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572219.3979] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572219.3979] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572219.3980] dhcp4 (wlo1):   lease time 600
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572219.3980] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572219.3980] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572219.3980] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572219.3980] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:50:19 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572485.9256] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572485.9257] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572485.9257] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572485.9257] dhcp4 (wlo1):   lease time 600
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572485.9257] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572485.9258] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572485.9258] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572485.9258] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:54:45 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572766.7728] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572766.7729] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572766.7729] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572766.7729] dhcp4 (wlo1):   lease time 600
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572766.7729] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572766.7730] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572766.7730] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572766.7730] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 09:59:26 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572996.8436] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572996.8437] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572996.8437] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572996.8437] dhcp4 (wlo1):   lease time 600
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572996.8438] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572996.8438] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572996.8438] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:03:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562572996.8438] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573236.2910] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573236.2927] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573236.2927] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573236.2928] dhcp4 (wlo1):   lease time 600
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573236.2929] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573236.2929] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573236.2929] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573236.2930] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:07:16 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573531.1499] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573531.1500] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573531.1500] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573531.1500] dhcp4 (wlo1):   lease time 600
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573531.1500] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573531.1501] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573531.1501] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573531.1501] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:12:11 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573796.1085] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573796.1085] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573796.1086] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573796.1086] dhcp4 (wlo1):   lease time 600
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573796.1086] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573796.1086] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573796.1086] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562573796.1087] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:16:36 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574090.9283] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574090.9284] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574090.9284] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574090.9284] dhcp4 (wlo1):   lease time 600
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574090.9285] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574090.9285] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574090.9286] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574090.9286] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:21:30 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574320.4224] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574320.4225] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574320.4225] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574320.4225] dhcp4 (wlo1):   lease time 600
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574320.4225] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574320.4225] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574320.4225] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:25:20 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574320.4225] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574595.5139] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574595.5139] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574595.5139] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574595.5139] dhcp4 (wlo1):   lease time 600
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574595.5140] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574595.5140] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574595.5140] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574595.5140] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:29:55 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574852.8564] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574852.8564] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574852.8564] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574852.8565] dhcp4 (wlo1):   lease time 600
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574852.8565] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574852.8565] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574852.8566] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562574852.8566] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:34:12 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575093.9985] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575093.9985] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575093.9985] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575093.9986] dhcp4 (wlo1):   lease time 600
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575093.9986] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575093.9986] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575093.9986] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575093.9986] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:38:13 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575326.9709] dhcp4 (wlo1):   address 192.168.5.176
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575326.9709] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575326.9710] dhcp4 (wlo1):   gateway 192.168.5.1
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575326.9710] dhcp4 (wlo1):   lease time 600
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575326.9711] dhcp4 (wlo1):   nameserver '192.168.5.1'
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575326.9711] dhcp4 (wlo1):   nameserver '84.2.46.1'
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575326.9711] dhcp4 (wlo1):   nameserver '84.2.44.1'
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 NetworkManager[631]: <info>  [1562575326.9711] dhcp4 (wlo1): state changed bound -> bound
+Jul  8 10:42:06 veres-HP-EliteBook-840-G2 dbus-daemon[553]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=631 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
